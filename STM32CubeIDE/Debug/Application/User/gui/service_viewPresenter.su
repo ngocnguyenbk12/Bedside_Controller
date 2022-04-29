@@ -1,0 +1,5 @@
+service_viewPresenter.hpp:28:13:service_viewPresenter::~service_viewPresenter()	0	static
+service_viewPresenter.cpp:10:6:virtual void service_viewPresenter::activate()	0	static
+service_viewPresenter.hpp:28:13:virtual service_viewPresenter::~service_viewPresenter()	8	static
+service_viewPresenter.hpp:28:13:virtual void* service_viewPresenter::_ZThn4_N21service_viewPresenterD1Ev()	0	static
+service_viewPresenter.cpp:4:1:service_viewPresenter::service_viewPresenter(service_viewView&)	8	static

@@ -1,0 +1,2 @@
+rtu_handle.c:22:1:HAL_UART_RxCpltCallback	0	static
+rtu_handle.c:56:1:HAL_TIM_PeriodElapsedCallback	8	static

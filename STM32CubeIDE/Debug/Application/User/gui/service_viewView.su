@@ -1,0 +1,12 @@
+Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+service_viewViewBase.hpp:24:18:virtual void service_viewViewBase::SER_function()	0	static
+service_viewViewBase.hpp:29:18:virtual void service_viewViewBase::SER_laundry()	0	static
+service_viewViewBase.hpp:34:18:virtual void service_viewViewBase::SER_clean()	0	static
+service_viewViewBase.hpp:39:18:virtual void service_viewViewBase::SER_call()	0	static
+service_viewView.hpp:11:13:service_viewView::~service_viewView()	0	static
+service_viewView.cpp:13:6:virtual void service_viewView::tearDownScreen()	0	static
+service_viewView.cpp:8:6:virtual void service_viewView::setupScreen()	0	static
+service_viewView.hpp:11:13:virtual service_viewView::~service_viewView()	8	static
+service_viewView.cpp:3:1:service_viewView::service_viewView()	8	static

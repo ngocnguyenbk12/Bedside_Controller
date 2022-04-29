@@ -1,0 +1,4 @@
+Modbus.c:21:1:eMBRegInputCB	0	static
+Modbus.c:49:1:eMBRegHoldingCB	12	static
+Modbus.c:96:1:eMBRegCoilsCB	0	static
+Modbus.c:103:1:eMBRegDiscreteCB	0	static

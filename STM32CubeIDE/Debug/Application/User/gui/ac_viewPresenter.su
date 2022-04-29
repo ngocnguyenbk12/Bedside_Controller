@@ -1,0 +1,5 @@
+ac_viewPresenter.hpp:28:13:ac_viewPresenter::~ac_viewPresenter()	0	static
+ac_viewPresenter.cpp:10:6:virtual void ac_viewPresenter::activate()	0	static
+ac_viewPresenter.hpp:28:13:virtual ac_viewPresenter::~ac_viewPresenter()	8	static
+ac_viewPresenter.hpp:28:13:virtual void* ac_viewPresenter::_ZThn4_N16ac_viewPresenterD1Ev()	0	static
+ac_viewPresenter.cpp:4:1:ac_viewPresenter::ac_viewPresenter(ac_viewView&)	8	static

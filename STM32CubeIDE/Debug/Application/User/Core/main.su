@@ -1,0 +1,7 @@
+main.c:777:6:StartDefaultTask	8	static
+main.c:814:6:Modbus_Task_Entry_Function	8	static
+main.c:795:6:StartTask04	8	static
+main.c:272:6:SystemClock_Config	88	static
+main.c:157:5:main	128	static,ignoring_inline_asm
+main.c:868:6:HAL_TIM_PeriodElapsedCallback	0	static
+main.c:885:6:Error_Handler	0	static

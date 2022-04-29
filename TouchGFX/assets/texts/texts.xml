@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.18.1">
+  <Texts>
+    <Text Id="__SingleUse_QMF9" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">SETTING</Translation>
+    </Text>
+    <Text Id="__SingleUse_4N4B" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Light</Translation>
+    </Text>
+    <Text Id="__SingleUse_TJLN" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Service</Translation>
+    </Text>
+    <Text Id="__SingleUse_5N94" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Air Conditioner</Translation>
+    </Text>
+    <Text Id="__SingleUse_9A0A" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">MED</Translation>
+    </Text>
+    <Text Id="__SingleUse_C2DG" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">LOW</Translation>
+    </Text>
+    <Text Id="__SingleUse_DE6L" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">HIGH</Translation>
+    </Text>
+    <Text Id="__SingleUse_L163" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">BACK</Translation>
+    </Text>
+    <Text Id="__SingleUse_L5MQ" TypographyId="Temperature_Value" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">TEMP : &lt;value&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_KX8P" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">BACK</Translation>
+    </Text>
+    <Text Id="__SingleUse_QFSI" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">BACK</Translation>
+    </Text>
+    <Text Id="__SingleUse_PUHB" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">SERVICE CALL</Translation>
+    </Text>
+    <Text Id="__SingleUse_S72S" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">CLEAN</Translation>
+    </Text>
+    <Text Id="__SingleUse_6QCO" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">LAUNDRY</Translation>
+    </Text>
+    <Text Id="__SingleUse_8EBQ" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">SER_FUNCTION</Translation>
+    </Text>
+    <Text Id="__SingleUse_NACE" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">BATH</Translation>
+    </Text>
+    <Text Id="__SingleUse_J5AP" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">KITCHEN</Translation>
+    </Text>
+    <Text Id="__SingleUse_B7S2" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">BED</Translation>
+    </Text>
+    <Text Id="__SingleUse_1P03" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">UP</Translation>
+    </Text>
+    <Text Id="__SingleUse_NOFE" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">DOWN</Translation>
+    </Text>
+    <Text Id="__SingleUse_E5WD" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">TIME</Translation>
+    </Text>
+    <Text Id="__SingleUse_BKGP" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Phone Number</Translation>
+    </Text>
+    <Text Id="__SingleUse_PWU4" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">X Fucntion</Translation>
+    </Text>
+    <Text Id="__SingleUse_A2FV" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Back</Translation>
+    </Text>
+    <Text Id="__SingleUse_ESQY" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Back</Translation>
+    </Text>
+    <Text Id="__SingleUse_XIFN" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">SAVE</Translation>
+    </Text>
+    <Text Id="__SingleUse_W9L3" TypographyId="Temperature_Value" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;&gt;</Translation>
+    </Text>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" FallbackCharacter="?" />
+    <Typography Id="Temperature_Value" Font="ariblk.ttf" Size="40" Bpp="4" FallbackCharacter="?" WidgetWildcardCharacters="0123456789 :APM" WildcardCharacterRanges="000-100" />
+  </Typographies>
+</TextDatabase>

@@ -1,0 +1,13 @@
+Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+Time_SettingViewBase.hpp:26:18:virtual void Time_SettingViewBase::Setting_Time_up()	0	static
+Time_SettingViewBase.hpp:31:18:virtual void Time_SettingViewBase::Setting_Time_down()	0	static
+Time_SettingViewBase.hpp:36:18:virtual void Time_SettingViewBase::Setting_Time_left()	0	static
+Time_SettingViewBase.hpp:41:18:virtual void Time_SettingViewBase::Setting_Time_right()	0	static
+Time_SettingViewBase.hpp:46:18:virtual void Time_SettingViewBase::Setting_Time_Save()	0	static
+Time_SettingView.hpp:11:13:Time_SettingView::~Time_SettingView()	0	static
+Time_SettingView.cpp:13:6:virtual void Time_SettingView::tearDownScreen()	0	static
+Time_SettingView.cpp:8:6:virtual void Time_SettingView::setupScreen()	0	static
+Time_SettingView.hpp:11:13:virtual Time_SettingView::~Time_SettingView()	8	static
+Time_SettingView.cpp:3:1:Time_SettingView::Time_SettingView()	8	static

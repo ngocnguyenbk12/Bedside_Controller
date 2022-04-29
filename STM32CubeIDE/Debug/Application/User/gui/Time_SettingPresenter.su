@@ -1,0 +1,5 @@
+Time_SettingPresenter.hpp:28:13:Time_SettingPresenter::~Time_SettingPresenter()	0	static
+Time_SettingPresenter.cpp:10:6:virtual void Time_SettingPresenter::activate()	0	static
+Time_SettingPresenter.hpp:28:13:virtual Time_SettingPresenter::~Time_SettingPresenter()	8	static
+Time_SettingPresenter.hpp:28:13:virtual void* Time_SettingPresenter::_ZThn4_N21Time_SettingPresenterD1Ev()	0	static
+Time_SettingPresenter.cpp:4:1:Time_SettingPresenter::Time_SettingPresenter(Time_SettingView&)	8	static

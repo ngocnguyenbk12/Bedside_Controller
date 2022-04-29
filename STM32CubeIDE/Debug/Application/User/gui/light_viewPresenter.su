@@ -1,0 +1,5 @@
+light_viewPresenter.hpp:28:13:light_viewPresenter::~light_viewPresenter()	0	static
+light_viewPresenter.cpp:10:6:virtual void light_viewPresenter::activate()	0	static
+light_viewPresenter.hpp:28:13:virtual light_viewPresenter::~light_viewPresenter()	8	static
+light_viewPresenter.hpp:28:13:virtual void* light_viewPresenter::_ZThn4_N19light_viewPresenterD1Ev()	0	static
+light_viewPresenter.cpp:4:1:light_viewPresenter::light_viewPresenter(light_viewView&)	8	static

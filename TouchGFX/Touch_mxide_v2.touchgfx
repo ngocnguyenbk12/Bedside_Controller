@@ -1,0 +1,1181 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "main_view",
+        "Components": [
+          {
+            "Type": "TiledImage",
+            "Name": "tiledImage1",
+            "Width": 480,
+            "Height": 272,
+            "FileName": "__designer\\Blue_Textures_whitewall.png",
+            "Style": "Texture21"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "SETTING",
+            "X": 278,
+            "Y": 186,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_QMF9",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "LIGHT_BUTTON",
+            "X": 278,
+            "Y": 126,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_4N4B",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "SERVICE_BUTTON",
+            "X": 278,
+            "Y": 66,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_TJLN",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "AC_BUTTON",
+            "X": 278,
+            "Y": 6,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_5N94",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "AnalogClock",
+            "Name": "analogClock1",
+            "X": 7,
+            "Y": 15,
+            "Width": 233,
+            "Height": 243,
+            "FileNameBackground": "__designer\\Blue_Clocks_Backgrounds_clock_standard_background.png",
+            "RotationCenterX": 116,
+            "RotationCenterY": 116,
+            "Style": "Style1",
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "ClockHands": [
+              {
+                "Type": "HourClockHand",
+                "FileNameHandImage": "__designer\\Blue_Clocks_Hands_clock_standard_hour_hand.png",
+                "RotationCenterX": 7,
+                "RotationCenterY": 52
+              },
+              {
+                "Type": "MinuteClockHand",
+                "FileNameHandImage": "__designer\\Blue_Clocks_Hands_clock_standard_minute_hand.png",
+                "RotationCenterX": 7,
+                "RotationCenterY": 67
+              },
+              {
+                "Type": "SecondClockHand",
+                "FileNameHandImage": "__designer\\Blue_Clocks_Hands_clock_standard_second_hand.png",
+                "RotationCenterX": 3,
+                "RotationCenterY": 66
+              }
+            ],
+            "InitialHour": 10,
+            "InitialMinute": 10
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "MAIN_2_AC",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "AC_BUTTON"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "ac_view"
+            }
+          },
+          {
+            "InteractionName": "MAIN_2_SER",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SERVICE_BUTTON"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "service_view"
+            }
+          },
+          {
+            "InteractionName": "MAIN_2_LIGHT",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "LIGHT_BUTTON"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "light_view"
+            }
+          },
+          {
+            "InteractionName": "MAIN_2_SETTING",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SETTING"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Setting"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "ac_view",
+        "Components": [
+          {
+            "Type": "TiledImage",
+            "Name": "tiledImage1",
+            "Width": 480,
+            "Height": 272,
+            "FileName": "__designer\\Blue_Textures_whitewall.png",
+            "Style": "Texture21"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "MED",
+            "X": 7,
+            "Y": 143,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_9A0A",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "LOW",
+            "X": 7,
+            "Y": 203,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_C2DG",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "HIGH",
+            "X": 7,
+            "Y": 83,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_DE6L",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1",
+            "X": 19,
+            "Y": 27,
+            "Width": 128,
+            "Height": 38,
+            "Pressed": "__designer\\Blue_Togglebars_Toggle_round_large_button_ON.png",
+            "Released": "__designer\\Blue_Togglebars_Toggle_round_large_button_OFF.png",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "back",
+            "X": 307,
+            "Y": 203,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_L163",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 187,
+            "Y": 16,
+            "Width": 279,
+            "Height": 49,
+            "TextId": "__SingleUse_L5MQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 222,
+              "Green": 173,
+              "Blue": 173
+            },
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "UP",
+            "X": 307,
+            "Y": 76,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_1P03",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "DOWN",
+            "X": 307,
+            "Y": 136,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_NOFE",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "AC_sethigh",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "HIGH"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "AC_sethigh"
+            }
+          },
+          {
+            "InteractionName": "AC_setmed",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "MED"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "AC_setmed"
+            }
+          },
+          {
+            "InteractionName": "AC_setlow",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "LOW"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "AC_setlow"
+            }
+          },
+          {
+            "InteractionName": "AC_setonoff",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "AC_setonoff"
+            }
+          },
+          {
+            "InteractionName": "AC_back",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "back"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "main_view"
+            }
+          },
+          {
+            "InteractionName": "AC_setdown",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "DOWN"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "AC_setdown"
+            }
+          },
+          {
+            "InteractionName": "AC_setup",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "UP"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "AC_setup"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "light_view",
+        "Components": [
+          {
+            "Type": "TiledImage",
+            "Name": "tiledImage1",
+            "Width": 480,
+            "Height": 272,
+            "FileName": "__designer\\Blue_Textures_whitewall.png",
+            "Style": "Texture21"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "BED",
+            "X": 17,
+            "Y": 22,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_B7S2",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "KITCHEN",
+            "X": 17,
+            "Y": 82,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_J5AP",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "BACK",
+            "X": 310,
+            "Y": 8,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_KX8P",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "BATH",
+            "X": 17,
+            "Y": 142,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_NACE",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "LIGHT_bathset",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BATH"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "LIGHT_bathset"
+            }
+          },
+          {
+            "InteractionName": "LIGHT_back",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BACK"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "main_view"
+            }
+          },
+          {
+            "InteractionName": "LIGHT_kitchenset",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "KITCHEN"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "LIGHT_kitchenset"
+            }
+          },
+          {
+            "InteractionName": "LIGHT_bedset",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BED"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "LIGHT_bedset"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "service_view",
+        "Components": [
+          {
+            "Type": "TiledImage",
+            "Name": "tiledImage1",
+            "Width": 480,
+            "Height": 272,
+            "FileName": "__designer\\Blue_Textures_whitewall.png",
+            "Style": "Texture21"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "BACK",
+            "X": 303,
+            "Y": 6,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_QFSI",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "SER_CALL",
+            "X": 20,
+            "Y": 16,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_PUHB",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "SER_CLEAN",
+            "X": 20,
+            "Y": 76,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_S72S",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "SER_LAUNDRY",
+            "X": 20,
+            "Y": 136,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_6QCO",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "SER_FUNCTION",
+            "X": 20,
+            "Y": 196,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_8EBQ",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "SER_function",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SER_FUNCTION"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "SER_function"
+            }
+          },
+          {
+            "InteractionName": "SER_laundry",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SER_LAUNDRY"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "SER_laundry"
+            }
+          },
+          {
+            "InteractionName": "SER_clean",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SER_CLEAN"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "SER_clean"
+            }
+          },
+          {
+            "InteractionName": "SER_call",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SER_CALL"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "SER_call"
+            }
+          },
+          {
+            "InteractionName": "SER_back",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BACK"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "main_view"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Setting",
+        "Components": [
+          {
+            "Type": "TiledImage",
+            "Name": "tiledImage1",
+            "Width": 480,
+            "Height": 272,
+            "FileName": "__designer\\Blue_Textures_whitewall.png",
+            "Style": "Texture21"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "TIME_SETTING",
+            "X": 16,
+            "Y": 25,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_E5WD",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "PHONENUMBER",
+            "X": 16,
+            "Y": 106,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_BKGP",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "X_Fucntion",
+            "X": 16,
+            "Y": 185,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_PWU4",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Back",
+            "X": 310,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_A2FV",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Setting_2_TimeSetting",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "TIME_SETTING"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Time_Setting"
+            }
+          },
+          {
+            "InteractionName": "Back",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Back"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "main_view"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Time_Setting",
+        "Components": [
+          {
+            "Type": "TiledImage",
+            "Name": "tiledImage1",
+            "Width": 480,
+            "Height": 272,
+            "FileName": "__designer\\Blue_Textures_whitewall.png",
+            "Style": "Texture21"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Back",
+            "X": 310,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_ESQY",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "SAVE",
+            "X": 10,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "TextId": "__SingleUse_XIFN",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style4"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "TIME_SETTING_BUTTON_UP",
+            "X": 317,
+            "Y": 122,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "IconPressed": "__designer\\Blue_Icons_Down_arrow_32.png",
+            "IconReleased": "__designer\\Blue_Icons_Down_arrow_32.png",
+            "IconX": 15,
+            "IconY": 22,
+            "IconHeight": 17,
+            "IconWidth": 30,
+            "ButtonStyle": "Style5"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "TIME_SETTING_BUTTON_RIGHT",
+            "X": 377,
+            "Y": 182,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "IconPressed": "__designer\\Blue_Icons_Next_arrow_32.png",
+            "IconReleased": "__designer\\Blue_Icons_Next_arrow_32.png",
+            "IconX": 22,
+            "IconY": 15,
+            "IconHeight": 30,
+            "IconWidth": 17,
+            "ButtonStyle": "Style5"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "TIME_SETTING_BUTTON_LEFT",
+            "X": 317,
+            "Y": 182,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "IconPressed": "__designer\\Blue_Icons_Back_arrow_32.png",
+            "IconReleased": "__designer\\Blue_Icons_Back_arrow_32.png",
+            "IconX": 22,
+            "IconY": 15,
+            "IconHeight": 30,
+            "IconWidth": 17,
+            "ButtonStyle": "Style5"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "TIME_SETTING_BUTTON_DOWN",
+            "X": 377,
+            "Y": 122,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "IconPressed": "__designer\\Blue_Icons_Up_arrow_32.png",
+            "IconReleased": "__designer\\Blue_Icons_Up_arrow_32.png",
+            "IconX": 15,
+            "IconY": 22,
+            "IconHeight": 17,
+            "IconWidth": 30,
+            "ButtonStyle": "Style5"
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "digitalClock1",
+            "X": 95,
+            "Y": 122,
+            "Width": 130,
+            "Height": 70,
+            "TextId": "__SingleUse_W9L3",
+            "InitialHour": 10,
+            "InitialMinute": 10
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Back",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Back"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Setting"
+            }
+          },
+          {
+            "InteractionName": "Setting_Time_up",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "TIME_SETTING_BUTTON_UP"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Setting_Time_up"
+            }
+          },
+          {
+            "InteractionName": "Setting_Time_down",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "TIME_SETTING_BUTTON_DOWN"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Setting_Time_down"
+            }
+          },
+          {
+            "InteractionName": "Setting_Time_left",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "TIME_SETTING_BUTTON_LEFT"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Setting_Time_left"
+            }
+          },
+          {
+            "InteractionName": "Setting_Time_right",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "TIME_SETTING_BUTTON_RIGHT"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Setting_Time_right"
+            }
+          },
+          {
+            "InteractionName": "Setting_Time_Save",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SAVE"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Setting_Time_Save"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "Touch_mxide_v2",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "main_view",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project --project-file=../STM32F746G_DISCO.ioc --platform=m7",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash -j8",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7"
+  },
+  "Version": "4.18.1",
+  "CreatedBy": "4.18.1"
+}

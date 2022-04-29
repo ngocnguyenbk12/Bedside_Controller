@@ -1,0 +1,5 @@
+main_viewPresenter.hpp:28:13:main_viewPresenter::~main_viewPresenter()	0	static
+main_viewPresenter.cpp:10:6:virtual void main_viewPresenter::activate()	0	static
+main_viewPresenter.hpp:28:13:virtual main_viewPresenter::~main_viewPresenter()	8	static
+main_viewPresenter.hpp:28:13:virtual void* main_viewPresenter::_ZThn4_N18main_viewPresenterD1Ev()	0	static
+main_viewPresenter.cpp:4:1:main_viewPresenter::main_viewPresenter(main_viewView&)	8	static
